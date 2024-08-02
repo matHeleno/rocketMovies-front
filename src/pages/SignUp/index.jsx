@@ -74,6 +74,7 @@ export function SignUp() {
         </InputContainer>
 
         <Button 
+          type='button'
           title={'Cadastrar'}
           onClick={handleSignUp}
         />
