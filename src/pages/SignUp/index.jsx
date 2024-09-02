@@ -37,7 +37,6 @@ export function SignUp() {
             alert("Não foi possível cadastrar esse usuário")
           }
         })
-
     }
   
   return(
@@ -74,7 +73,6 @@ export function SignUp() {
         </InputContainer>
 
         <Button 
-          type='button'
           title={'Cadastrar'}
           onClick={handleSignUp}
         />
